@@ -1,0 +1,37 @@
+{
+  "name": "koishi-plugin-censure",
+  "description": "Generating copy for condemning others",
+  "version": "0.0.2",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "plugin",
+    "censure"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/idanran/koishi-plugin-censure.git"
+  },
+  "author": {
+    "email": "idanran@outlook.com",
+    "name": "idanran",
+    "url": "https://github.com/idanran"
+  },
+  "peerDependencies": {
+    "koishi": "^4.15.2"
+  },
+  "koishi": {
+    "description": {
+      "en": "Generating copy for condemning others",
+      "zh": "生成谴责他人的文案"
+    },
+    "browser": true
+  }
+}
