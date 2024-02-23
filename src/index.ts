@@ -7,7 +7,7 @@ export interface Config { }
 export const Config: Schema<Config> = Schema.object({})
 
 export function apply(ctx: Context) {
-  ctx.command('censure <target> <event>')
+  ctx.command('censure <target> <event>', '生成谴责文案')
     .alias('谴责')
     .action(({ source }, target, event) => {
       if (isEmpty(target)) return '你没有输入目标。'
