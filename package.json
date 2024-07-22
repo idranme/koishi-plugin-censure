@@ -1,7 +1,7 @@
 {
   "name": "koishi-plugin-censure",
   "description": "Generating copy for condemning others",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -17,15 +17,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/idanran/koishi-plugin-censure.git"
-  },
-  "author": {
-    "email": "idanran@outlook.com",
-    "name": "idanran",
-    "url": "https://github.com/idanran"
+    "url": "git+https://github.com/idranme/koishi-plugin-censure.git"
   },
   "peerDependencies": {
-    "koishi": "^4.15.2"
+    "koishi": "^4.17.7"
   },
   "koishi": {
     "description": {
